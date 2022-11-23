@@ -3,13 +3,33 @@
 
 # - 5, 25 -> да
 # - 4, 16 -> да
-# - 25, 5 -> да
+# - 25, 5 -> да      ctrl+? - за/раскомментировать
 # - 8,9 -> нет
 
-a = int(input("Enter number: "))
-b = int(input("Enter number: "))
+# a = int(input("Enter number: "))                       
+# b = int(input("Enter number: "))
 
-if a*a==b or b*b==a:
-    print("yes")
-else:
-    print("no")
+# if a*a == b or b*b == a:
+#     print("yes")
+# else:
+#     print("no")
+
+#     тернарный оператор a = 2 if (num_1 == mum_2) else 4
+
+# 2. Напишите программу, которая на вход принимает 5 чисел и находит максимальное из них.
+
+# Примеры:
+
+# - 1, 4, 8, 7, 5 -> 8
+# - 78, 55, 36, 90, 2 -> 90
+
+# a = [1, 3, 6, 7, 5]
+# max = a[0]
+
+# for i in range (5):
+#     if a[i] > max:
+#         max = a[i]
+
+# print(max)
+
+
