@@ -24,6 +24,24 @@
 #     print(3*i + 1, end= ' ')
 #     i += 1
 
+# 2)
+# def dict_comprehension() -> dict:
+#     try:
+#         n = int(input('Введите целое число >=0:'))
+#         if n > 0:
+#             # Генератор словаря(dict_comprehension)
+#             dict = {k: (3 * k + 1) for k in range(1, n)}
+#             print(f'- Для n = {n}: {dict} ')
+#             # Возвращает словарь
+#             return dict
+#         # Возвращает пустой словарь, так условие
+#         return {}
+#     except ValueError:
+#         print('Вы ввели не целое число!')
+#         print('Повторите ввод')
+#         return dict_comprehension()
+# dict_comprehension()
+
 # 3. Напишите программу, в которой пользователь будет задавать 
 # две строки, а программа - определять количество вхождений одной строки в другой.
 # 'Я люблю Python'
@@ -35,8 +53,24 @@
 # print (str1.count(str2))
 #2)
 
-test_str = str(input())
-counter = test_str.count(str(input())) 
+# test_str = str(input())
+# counter = test_str.count(str(input())) 
  
-print ("Count is : " +  str(counter))
+# print ("Count is : " +  str(counter))
 
+
+# 3)
+# text = 'Я люблю Python люблю'
+# searchText = input('Введите строку для подсчета вхождения: ')
+
+# list = text.split(searchText)
+# print(len(list)-1)
+
+# 4)
+# my_string = 'Я люблю Python'
+# s2 = input("Введите строку для проверки вхождения: ")
+# number = 0
+# for i in range(len(my_string) - len(s2)+1):
+#     if my_string[i:i+len(s2)] == s2:
+#         number += 1
+# print(number)
