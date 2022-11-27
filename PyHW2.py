@@ -5,8 +5,9 @@
 
 # n = str(input("Enter real number: "))
 # l = list(n)
-# l.pop(1)
-# print(l)
+# for j in range (len(l) - 1):
+#     if l[j] == ',':
+#         l.remove(l[j])
 # i = 0
 # sum = 0
 # while i < len(l):
