@@ -63,3 +63,38 @@
 # print(res)
 
 # Реализуйте алгоритм перемешивания списка.
+# Первая моя задумка перемешивает, нонекоторые эелементы повторяются, а нектороые наоборот не используются:
+
+# i = str(input("Enter elenets, devided by spaces: "))
+# l = i.split(" ")
+# print(l)
+# import random
+# for i in range(len(l)):
+#     l[i] = l[random.randrange(0, len(l))]
+# print(l)
+
+#Вторая простая, но неинтересная:
+
+# i = str(input("Enter elenets, devided by spaces: "))
+# l = i.split(" ")
+# print(l)
+# import random
+# random.shuffle(l)
+# print(l)
+
+#Третья вот такая:
+
+# i = str(input("Enter elenets, devided by spaces: "))
+# l = i.split(" ")
+# print(l)
+# for i in range(0, len(l) - 2, 2):
+#     k = l[i]
+#     l[i] = l[i + 2]
+#     l[i + 2] = k
+#     i += 1
+# for i in range(0, len(l) - 2, 1):
+#     k = l[i]
+#     l[i] = l[i + 2]
+#     l[i + 2] = k
+#     i += 1
+# print(l)
