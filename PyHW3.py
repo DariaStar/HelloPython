@@ -23,6 +23,19 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 
+# something1 = [2, 3, 4, 5, 6]
+# something2 = [2, 3, 5, 6]
+
+# def proisv (anylist):
+#     i = 0
+#     while i < len(anylist) / 2:
+#         p = anylist[i] * anylist[len(anylist) - 1 - i]
+#         print(f"{anylist[i]} * {anylist[len(anylist) - 1 - i]} = {p}")  
+#         i += 1
+
+# proisv(something1)
+# print()
+# proisv(something2)
 
 # 3. Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 
